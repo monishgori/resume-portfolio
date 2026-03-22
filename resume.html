@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -31,7 +31,7 @@
       body {
         margin: 0;
         min-height: 100vh;
-        font-family: "Manrope", sans-serif;
+        font-family: "Space Grotesk", sans-serif;
         color: var(--text);
         background:
           radial-gradient(circle at top left, rgba(255, 130, 67, 0.16), transparent 24%),
@@ -61,6 +61,52 @@
         box-shadow: var(--shadow);
         backdrop-filter: blur(18px);
         -webkit-backdrop-filter: blur(18px);
+      }
+
+      .resume-topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 16px;
+        padding: 18px 22px;
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+      }
+
+      .brand-wrap {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .brand-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, var(--orange), var(--gold));
+        box-shadow: 0 0 24px rgba(255, 130, 67, 0.5);
+      }
+
+      .brand {
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      .resume-toplinks {
+        display: flex;
+        gap: 18px;
+      }
+
+      .resume-toplinks a {
+        color: var(--text);
+        text-decoration: none;
       }
 
       .resume-card {
@@ -99,7 +145,7 @@
 
       h1,
       h2 {
-        font-family: "Sora", sans-serif;
+        font-family: "Syne", sans-serif;
       }
 
       h1 {
@@ -232,6 +278,7 @@
       }
 
       @media (max-width: 840px) {
+        .resume-topbar,
         .top,
         .grid,
         .footer-bar {
@@ -289,6 +336,7 @@
           box-shadow: none;
         }
 
+        .resume-topbar,
         .footer-bar,
         .back-link,
         .resume-actions {
@@ -311,6 +359,16 @@
   </head>
   <body>
     <div class="resume-shell">
+      <div class="resume-topbar">
+        <div class="brand-wrap">
+          <span class="brand-dot"></span>
+          <span class="brand">MONISH GORI</span>
+        </div>
+        <div class="resume-toplinks">
+          <a href="./index.html">Portfolio</a>
+          <a href="mailto:mohnishgori@gmail.com">Email</a>
+        </div>
+      </div>
       <div class="resume-card">
         <div class="top">
           <div>
