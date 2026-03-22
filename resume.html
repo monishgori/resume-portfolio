@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monish | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #fffaf5;
+        --text: #1e1a17;
+        --muted: #63584f;
+        --line: rgba(30, 26, 23, 0.12);
+        --accent: #d65a31;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Space Grotesk", sans-serif;
+        color: var(--text);
+        background: linear-gradient(180deg, #f5ecde, #fffaf5);
+      }
+
+      .resume-shell {
+        width: min(960px, calc(100% - 32px));
+        margin: 32px auto;
+        padding: 36px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: rgba(255, 255, 255, 0.88);
+      }
+
+      h1,
+      h2,
+      p {
+        margin-top: 0;
+      }
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 22px;
+        margin-bottom: 22px;
+      }
+
+      .top h1 {
+        margin-bottom: 8px;
+      }
+
+      .top p,
+      li {
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 28px;
+      }
+
+      .section {
+        margin-bottom: 26px;
+      }
+
+      .section h2 {
+        font-size: 0.95rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      .item {
+        padding-top: 12px;
+        border-top: 1px solid var(--line);
+        margin-top: 12px;
+      }
+
+      ul {
+        padding-left: 18px;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 8px;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .resume-shell {
+          width: 100%;
+          margin: 0;
+          border: 0;
+          border-radius: 0;
+          padding: 0;
+        }
+
+        .back-link {
+          display: none;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .top,
+        .grid {
+          grid-template-columns: 1fr;
+          display: grid;
+        }
+
+        .resume-shell {
+          padding: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume-shell">
+      <div class="top">
+        <div>
+          <h1>Your Name</h1>
+          <p>Recent Graduate | Software / Web Developer</p>
+          <p>
+            Replace this with a 2-3 line professional summary focused on what you
+            can do for a company, not just what you studied.
+          </p>
+        </div>
+        <div>
+          <p>Email: yourmail@example.com</p>
+          <p>Phone: +91 00000 00000</p>
+          <p>Location: Your City, India</p>
+          <p>LinkedIn: linkedin.com/in/yourprofile</p>
+          <p>GitHub: github.com/yourprofile</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <section class="section">
+            <h2>Projects</h2>
+            <div class="item">
+              <strong>Project Name</strong>
+              <p>1-2 lines on what it does, what problem it solves, and what stack you used.</p>
+            </div>
+            <div class="item">
+              <strong>Project Name</strong>
+              <p>Add measurable value where possible: users, speed, features, automation, design, or outcome.</p>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Education</h2>
+            <div class="item">
+              <strong>Your Degree</strong>
+              <p>Your College / University</p>
+              <p>Graduated: 2026</p>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Experience</h2>
+            <div class="item">
+              <strong>Internship / Freelance / College Role</strong>
+              <p>If you do not have formal experience, include responsibility-heavy work, internships, or leadership.</p>
+            </div>
+          </section>
+        </div>
+
+        <div>
+          <section class="section">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React, Node.js, Git</li>
+              <li>SQL / MongoDB</li>
+              <li>Responsive UI, Problem Solving</li>
+            </ul>
+          </section>
+
+          <section class="section">
+            <h2>Certifications</h2>
+            <div class="item">
+              <strong>Add your certifications here</strong>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Achievements</h2>
+            <div class="item">
+              <strong>Add hackathons, awards, leadership, or strong academic wins here</strong>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <a class="back-link" href="./index.html">Back to portfolio</a>
+    </div>
+  </body>
+</html>
