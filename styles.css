@@ -459,6 +459,7 @@ main {
 }
 
 @media (max-width: 1024px) {
+
   .hero-grid,
   .intro-band,
   .project-list,
@@ -621,15 +622,15 @@ main {
 }
 
 .accent-edu {
-  background: linear-gradient(160deg, rgba(255, 122, 47, 0.13), rgba(255, 255, 255, 0.03)), rgba(255,255,255,0.04);
+  background: linear-gradient(160deg, rgba(255, 122, 47, 0.13), rgba(255, 255, 255, 0.03)), rgba(255, 255, 255, 0.04);
 }
 
 .accent-train {
-  background: linear-gradient(160deg, rgba(120, 255, 214, 0.1), rgba(255, 255, 255, 0.03)), rgba(255,255,255,0.04);
+  background: linear-gradient(160deg, rgba(120, 255, 214, 0.1), rgba(255, 255, 255, 0.03)), rgba(255, 255, 255, 0.04);
 }
 
 .accent-status {
-  background: linear-gradient(160deg, rgba(243, 198, 118, 0.14), rgba(255, 255, 255, 0.03)), rgba(255,255,255,0.04);
+  background: linear-gradient(160deg, rgba(243, 198, 118, 0.14), rgba(255, 255, 255, 0.03)), rgba(255, 255, 255, 0.04);
 }
 
 .skills-panel {
@@ -666,21 +667,21 @@ main {
   background:
     radial-gradient(circle at top right, rgba(255, 122, 47, 0.28), transparent 28%),
     linear-gradient(160deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
-    rgba(255,255,255,0.04);
+    rgba(255, 255, 255, 0.04);
 }
 
 .project-card-mint {
   background:
     radial-gradient(circle at top right, rgba(120, 255, 214, 0.18), transparent 30%),
     linear-gradient(160deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03)),
-    rgba(255,255,255,0.035);
+    rgba(255, 255, 255, 0.035);
 }
 
 .project-card-steel {
   background:
     radial-gradient(circle at top right, rgba(255, 255, 255, 0.08), transparent 26%),
     linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02)),
-    rgba(255,255,255,0.03);
+    rgba(255, 255, 255, 0.03);
 }
 
 .project-topline {
@@ -707,8 +708,8 @@ main {
 .contact-card {
   background:
     radial-gradient(circle at top right, rgba(243, 198, 118, 0.16), transparent 28%),
-    linear-gradient(160deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03)),
-    rgba(255,255,255,0.04);
+    linear-gradient(160deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03)),
+    rgba(255, 255, 255, 0.04);
 }
 
 .contact-grid a:hover,
