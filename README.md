@@ -1,25 +1,36 @@
-# Resume Portfolio
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This folder contains a simple portfolio website and a clean resume page you can show to companies for internships and entry-level work.
+## Getting Started
 
-Files:
+First, run the development server:
 
-- `index.html` is the main portfolio page.
-- `styles.css` controls the design.
-- `resume.html` is the resume page.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-How to use it:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Open `index.html` in a browser.
-2. Replace the placeholder text with your real name, degree, skills, projects, links, and contact details.
-3. Open `resume.html` and fill in your real resume details.
-4. If you want a PDF resume, open `resume.html` in a browser and print it as PDF.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-What to update first:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Your name
-- Your email and phone
-- LinkedIn and GitHub
-- Degree and college
-- 2 or 3 strong projects
-- Skills you actually know
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
