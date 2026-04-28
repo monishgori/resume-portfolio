@@ -12,24 +12,27 @@ function GithubIcon({ size = 18 }: { size?: number }) {
 const projects = [
   {
     title: "Shri Sodevpir Dada",
-    description: "A centralized platform for devotional reading and prayer content. Built to solve the problem of scattered spiritual material, featuring bilingual support and installable app-like behavior (PWA).",
-    stack: ["React", "JavaScript", "Tailwind", "Vercel", "PWA"],
+    description: "Built a devotional platform to make daily prayers simple and accessible. Organized scattered spiritual material into a single, cohesive PWA.",
+    impact: "Used by real users with fast load times and seamless bilingual navigation.",
+    stack: ["React", "Tailwind", "PWA"],
     liveUrl: "https://shrisodevpirdada.vercel.app",
     githubUrl: "https://github.com/monishgori/ShriSodevpirDada",
     state: "Live on Vercel"
   },
   {
     title: "Shri Aashapura Maa",
-    description: "A clean, mobile-first devotional application designed for daily spiritual reading. Features a structured navigation flow, bilingual content, and offline-capable architecture.",
-    stack: ["React", "JavaScript", "CSS", "Vercel", "Service Worker"],
+    description: "Developed a clean, mobile-first devotional web application designed specifically for daily spiritual reading and offline capability.",
+    impact: "Provides a structured navigation flow that vastly improves the reading experience for users on mobile devices.",
+    stack: ["React", "Service Worker", "CSS"],
     liveUrl: "https://shriaashapuramaa.vercel.app",
     githubUrl: "https://github.com/monishgori/ShriAashapuraMaa",
     state: "Live on Vercel"
   },
   {
     title: "CARECONNECT",
-    description: "A hospital appointment management system built as a final year project to streamline booking workflows and improve patient-side access and scheduling efficiency.",
-    stack: ["Java", "SQL", "Web Dev Fundamentals"],
+    description: "Built a hospital appointment management system to solve booking inefficiencies and streamline scheduling for staff and patients.",
+    impact: "Successfully presented as a final year academic project, demonstrating proficiency in database integration and full-stack architecture.",
+    stack: ["Java", "SQL", "Web Dev"],
     githubUrl: "https://github.com/monishgori/DoctorApp.git",
     state: "Final Year Project"
   }
@@ -37,7 +40,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-32">
       <div className="container mx-auto px-6 max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -90,8 +93,12 @@ export default function Projects() {
                     {project.title}
                   </h3>
                   
-                  <p className="text-neutral-400 mb-6 leading-relaxed">
+                  <p className="text-neutral-400 mb-2 leading-relaxed">
                     {project.description}
+                  </p>
+                  
+                  <p className="text-blue-400/80 text-sm font-medium mb-6">
+                    → {project.impact}
                   </p>
 
                   <div className="flex flex-wrap gap-2 mb-8">

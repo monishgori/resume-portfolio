@@ -5,7 +5,7 @@ import { Terminal } from "lucide-react";
 
 export default function CurrentlyWorkingOn() {
   return (
-    <section className="py-24 border-y border-neutral-900 bg-neutral-950/50">
+    <section className="py-32 border-y border-neutral-900 bg-neutral-950/30">
       <div className="container mx-auto px-6 max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,10 +21,10 @@ export default function CurrentlyWorkingOn() {
           <div>
             <span className="text-neutral-500 text-sm font-medium tracking-wider uppercase mb-2 block">What I&apos;m Currently Working On</span>
             <h3 className="text-2xl font-bold text-neutral-50 heading-font mb-4">
-              Polishing deployment pipelines & preparing for roles.
+              Building real-world applications & refining skills.
             </h3>
             <p className="text-neutral-400 leading-relaxed text-lg">
-              Right now, I&apos;m focused on expanding my final year project into a production-ready application and diving deeper into modern React patterns. Simultaneously, I am preparing for software engineering and frontend developer interviews.
+              Currently improving deployment workflows and preparing for technical interviews. Also focusing on building more real-world applications and diving deeper into modern frontend performance patterns.
             </p>
           </div>
         </motion.div>

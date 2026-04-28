@@ -11,7 +11,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 bg-neutral-900/20 border-y border-neutral-900">
+    <section id="skills" className="py-32 bg-neutral-900/10 border-b border-neutral-900">
       <div className="container mx-auto px-6 max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
