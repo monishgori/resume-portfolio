@@ -8,7 +8,7 @@ import CurrentlyWorkingOn from "@/components/sections/CurrentlyWorkingOn";
 
 export default function Home() {
   return (
-    <div className="flex flex-col relative z-10">
+    <div className="flex flex-col relative z-10 divide-y divide-white/5">
       <Hero />
       <Highlights />
       <Projects />

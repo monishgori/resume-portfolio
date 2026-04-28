@@ -23,7 +23,7 @@ export default function Hero() {
             B.Sc. Computer Science Graduate • Open to Work
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-neutral-50 mb-6 heading-font leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-neutral-50 mb-4 heading-font leading-tight">
             I build <span className="text-gradient">fast, clean & meaningful</span> web applications.
           </h1>
 

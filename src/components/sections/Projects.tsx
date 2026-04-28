@@ -14,6 +14,7 @@ const projects = [
     title: "Shri Sodevpir Dada",
     description: "Built a devotional platform to make daily prayers simple and accessible. Organized scattered spiritual material into a single, cohesive PWA.",
     impact: "Used by real users with fast load times and seamless bilingual navigation.",
+    credibility: "Deployed and live on Vercel",
     stack: ["React", "Tailwind", "PWA"],
     liveUrl: "https://shrisodevpirdada.vercel.app",
     githubUrl: "https://github.com/monishgori/ShriSodevpirDada",
@@ -23,6 +24,7 @@ const projects = [
     title: "Shri Aashapura Maa",
     description: "Developed a clean, mobile-first devotional web application designed specifically for daily spiritual reading and offline capability.",
     impact: "Provides a structured navigation flow that vastly improves the reading experience for users on mobile devices.",
+    credibility: "Optimized for fast loading and performance",
     stack: ["React", "Service Worker", "CSS"],
     liveUrl: "https://shriaashapuramaa.vercel.app",
     githubUrl: "https://github.com/monishgori/ShriAashapuraMaa",
@@ -32,6 +34,7 @@ const projects = [
     title: "CARECONNECT",
     description: "Built a hospital appointment management system to solve booking inefficiencies and streamline scheduling for staff and patients.",
     impact: "Successfully presented as a final year academic project, demonstrating proficiency in database integration and full-stack architecture.",
+    credibility: "Accessible across devices",
     stack: ["Java", "SQL", "Web Dev"],
     githubUrl: "https://github.com/monishgori/DoctorApp.git",
     state: "Final Year Project"
@@ -97,8 +100,13 @@ export default function Projects() {
                     {project.description}
                   </p>
                   
-                  <p className="text-blue-400/80 text-sm font-medium mb-6">
+                  <p className="text-blue-400/80 text-sm font-medium mb-1">
                     → {project.impact}
+                  </p>
+
+                  <p className="text-neutral-500 text-sm mb-6 flex items-center gap-2">
+                    <span className="w-1 h-1 rounded-full bg-neutral-600" />
+                    {project.credibility}
                   </p>
 
                   <div className="flex flex-wrap gap-2 mb-8">

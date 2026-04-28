@@ -10,8 +10,11 @@ export default function Footer() {
             <div className="w-2 h-2 bg-neutral-50 rounded-full" />
             Monish Gori
           </span>
-          <p className="text-neutral-500 text-sm">
+          <p className="text-neutral-500 text-sm mt-1">
             &copy; {new Date().getFullYear()} All rights reserved.
+          </p>
+          <p className="text-neutral-500/70 text-xs mt-0.5">
+            Built with Next.js, Tailwind & attention to detail.
           </p>
         </div>
 

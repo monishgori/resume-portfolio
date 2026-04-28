@@ -5,7 +5,7 @@ import { Terminal } from "lucide-react";
 
 export default function CurrentlyWorkingOn() {
   return (
-    <section className="py-32 border-y border-neutral-900 bg-neutral-950/30">
+    <section className="py-32 bg-neutral-950/30">
       <div className="container mx-auto px-6 max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -20,7 +20,7 @@ export default function Highlights() {
   ];
 
   return (
-    <section className="py-16 border-y border-neutral-900 bg-neutral-950/30">
+    <section className="py-16 bg-neutral-950/30">
       <div className="container mx-auto px-6 max-w-5xl">
         <motion.div
           className="grid md:grid-cols-3 gap-8"
