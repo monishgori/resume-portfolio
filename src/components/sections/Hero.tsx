@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, FileText } from "lucide-react";
+import { ArrowRight, FileText, Download } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
@@ -40,12 +40,21 @@ export default function Hero() {
               <ArrowRight size={18} />
             </Link>
             <a
-              href="/resume.html"
+              href="/resume.pdf"
               target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-neutral-900 text-neutral-50 font-medium rounded-full border border-neutral-800 hover:border-neutral-600 hover:bg-neutral-800 transition-all duration-300 flex items-center justify-center gap-2"
             >
               <FileText size={18} />
-              Open Resume
+              View Resume
+            </a>
+            <a
+              href="/resume.pdf"
+              download="Monish_Gori_Resume.pdf"
+              className="w-full sm:w-auto p-4 text-neutral-400 hover:text-neutral-50 transition-colors flex items-center justify-center gap-2"
+              title="Download Resume"
+            >
+              <Download size={20} />
             </a>
           </div>
         </motion.div>

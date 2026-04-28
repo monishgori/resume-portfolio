@@ -50,8 +50,9 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="/resume.html"
+            href="/resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 rounded-full border border-neutral-800 hover:border-neutral-600 text-neutral-300 hover:text-white transition-all duration-300"
           >
             Resume
