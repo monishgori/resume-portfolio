@@ -68,3 +68,18 @@ html {
   background: rgba(255, 255, 255, 0.1);
   color: #fafafa;
 }
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+
+  @page {
+    margin: 0;
+  }
+}
