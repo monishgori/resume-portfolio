@@ -39,26 +39,26 @@ export default function ResumePage() {
       </div>
 
       {/* Resume Content Container (A4 Proportions) */}
-      <div className="max-w-[850px] mx-auto bg-white p-8 md:p-16 print:p-8">
+      <div className="max-w-[800px] mx-auto bg-white p-8 md:p-16 print:p-0">
         
         {/* Header */}
-        <header className="mb-8 border-b border-neutral-200 pb-6">
+        <header className="mb-6 border-b border-neutral-200 pb-6">
           <h1 className="text-4xl font-bold text-neutral-900 tracking-tight mb-1">
             Monish Mahesh Gori
           </h1>
           <p className="text-xl text-neutral-600 font-medium mb-4">
-            Full Stack Developer
+            Full Stack Developer | Open to Internships
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-500">
-            <a href="mailto:mohnishgori@gmail.com" className="hover:text-blue-600 transition-colors">mohnishgori@gmail.com</a>
-            <span>+91 96533 15622</span>
-            <span>Mumbai, India</span>
-            <a href="https://github.com/monishgori" target="_blank" rel="noreferrer" className="hover:text-blue-600 transition-colors">github.com/monishgori</a>
+            <span><span className="font-bold text-neutral-900">Email:</span> <a href="mailto:mohnishgori@gmail.com" className="hover:text-blue-600 transition-colors">mohnishgori@gmail.com</a></span>
+            <span><span className="font-bold text-neutral-900">Phone:</span> +91 96533 15622</span>
+            <span><span className="font-bold text-neutral-900">Location:</span> Mumbai, India</span>
+            <span><span className="font-bold text-neutral-900">GitHub:</span> <a href="https://github.com/monishgori" target="_blank" rel="noreferrer" className="hover:text-blue-600 transition-colors">github.com/monishgori</a></span>
           </div>
         </header>
 
         {/* Summary */}
-        <section className="mb-8">
+        <section className="mb-6 pb-6 border-b border-neutral-100">
           <h2 className="text-sm font-bold text-neutral-900 uppercase tracking-widest border-b-2 border-neutral-900 pb-1 mb-4 inline-block">
             Summary
           </h2>
@@ -68,7 +68,7 @@ export default function ResumePage() {
         </section>
 
         {/* Projects */}
-        <section className="mb-8">
+        <section className="mb-6 pb-6 border-b border-neutral-100">
           <h2 className="text-sm font-bold text-neutral-900 uppercase tracking-widest border-b-2 border-neutral-900 pb-1 mb-4 inline-block">
             Projects
           </h2>
@@ -137,7 +137,7 @@ export default function ResumePage() {
 
           <div>
             {/* Education */}
-            <section className="mb-8">
+            <section className="mb-6 pb-6 border-b border-neutral-100">
               <h2 className="text-sm font-bold text-neutral-900 uppercase tracking-widest border-b-2 border-neutral-900 pb-1 mb-4 inline-block">
                 Education
               </h2>
